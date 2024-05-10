@@ -67,6 +67,8 @@ section {
   padding-bottom: 2vh;
   height: 96vh;
   margin: 0 auto; /* Center horizontally */
+  margin-left: 2rem; /* Add left margin */
+  margin-right: 2rem; /* Add right margin */
   box-sizing: border-box;
   min-height: fit-content;
 }
@@ -115,7 +117,6 @@ section {
   font-size: 3rem;
   text-align: center;
 }
-
 
 #socials-container {
   display: flex;
@@ -181,6 +182,7 @@ section {
 #about {
   position: relative;
   max-width: 1500px;
+  width: 85%;
   margin: 0 auto; /* Center horizontally */
   display: flex;
   flex-direction: column;
@@ -237,12 +239,12 @@ section {
   text-align: justify;
 }
 
-
 /* EXPERIENCE SECTION */
 #experience {
   position: relative;
   margin: 0 auto; /* Center horizontally */
   max-width: 1700px;
+  width: 85%;
 }
 
 .experience-sub-title {
@@ -312,6 +314,7 @@ article .icon {
   flex-direction: column;
   height: 70vh;
   margin: 0 auto; /* Center horizontally */
+  padding: 0 2rem; /* Add left and right padding */
 }
 
 .contact-info-upper-container {
